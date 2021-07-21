@@ -55,7 +55,9 @@ public class FavAdapter extends RecyclerView.Adapter<FavAdapter.ViewHolder> {
         this.movieOrTvShow = movieOrTvShow;
         notifyDataSetChanged();
     }
-
+/**
+ * Created by abhinav on 12/7/20.
+ */
     public FavAdapter(Context context) {
         this.mContext = context;
     }
